@@ -1,4 +1,4 @@
-public with sharing class ParticipationHelper extends TriggerHandler {
+public with sharing class OpportunityTripHelper extends TriggerHandler {
 
     public  override void beforeUpdate() {
         List<Participation__c> participationNew = trigger.new;
